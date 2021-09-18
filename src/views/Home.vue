@@ -113,7 +113,7 @@ setTimeout(() => {
           <br />
           <span class="text-gray-600 text-2xl">简单 · 快速 · 简洁 · 美观</span>
         </h2>
-        <va-button> 立即试用 </va-button>
+        <a-button type="primary">立即试用</a-button>
       </div>
     </div> -->
 

@@ -18,7 +18,7 @@ const Icon = Icons['InfoCircleOutlined']
     </div>
     <div class="flex flex-row items-center">
       <span class="text-2xl flex-grow">290.00</span>
-      <!-- <va-button class="">兑换</va-button> -->
+      <a-button type="primary">兑换</a-button>
     </div>
   </div>
 </template>
