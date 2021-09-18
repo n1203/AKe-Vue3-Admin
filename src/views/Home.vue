@@ -94,6 +94,9 @@ const store = createStore({
   }, {
     title: '最近访问',
     type: 'chart-line'
+  }, {
+    title: '镜像信息',
+    type: 'key-value'
   }]
 }}})
 
