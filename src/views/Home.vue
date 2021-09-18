@@ -34,6 +34,9 @@ const store = createStore({
     }]
   }, {
     title: '订单', type: 'table',
+  }, {
+    title: '最近访问',
+    type: 'shortcut'
   }],
   right: [{
     title: '用户信息', type: 'user',

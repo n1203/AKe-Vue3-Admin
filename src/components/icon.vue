@@ -7,20 +7,26 @@ const {
   spin = false,
   rotate = false,
   twoToneColor = '',
+  color = ''
 } = defineProps({
   name: {
     type: String,
     required: true,
   },
   style: Object,
-  className: [Object, String],
   spin: Boolean,
   rotate: Boolean,
-  twoToneColor: String
+  twoToneColor: String,
+  color: String,
 })
 const Icon = Icons[name.replace('<', '').replace('/>', '').replace(' ', '')]
+
+const styles = `
+  color: ${color}
+` + style
+
 </script>
 
 <template>
-  <Icon :style="style" :class="className" :spin="spin" :rotate="rotate" :twoToneColor="twoToneColor" />
+  <Icon :style="styles" :spin="spin" :rotate="rotate" :twoToneColor="twoToneColor" />
 </template>
