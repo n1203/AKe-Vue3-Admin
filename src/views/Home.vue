@@ -37,6 +37,9 @@ const store = createStore({
   }, {
     title: '最近访问',
     type: 'shortcut'
+  }, {
+    title: '最近访问',
+    type: 'chart-line'
   }],
   right: [{
     title: '用户信息', type: 'user',
@@ -85,6 +88,9 @@ const store = createStore({
   }, {
     title: '访问管理',
     type: 'indicator'
+  }, {
+    title: '最近访问',
+    type: 'chart-line'
   }]
 }}})
 
