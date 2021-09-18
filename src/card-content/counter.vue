@@ -22,11 +22,3 @@ const Icon = Icons['InfoCircleOutlined']
     </div>
   </div>
 </template>
-
-<style scoped>
-.icons-list >>> .anticon {
-    margin-right: 6px;
-    font-size: 24px;
-}
-
-</style>

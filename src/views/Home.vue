@@ -79,6 +79,9 @@ const store = createStore({
   }, {
     title: '费用信息',
     type: 'counter'
+  }, {
+    title: '访问管理',
+    type: 'indicator'
   }]
 }}})
 
