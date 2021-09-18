@@ -10,13 +10,6 @@ const {
   <div class="bg-gray-100 p-4">
     <div class="mb-4 text-sm text-gray-500 inline-flex flex-row items-center">
       <span>代金券</span>
-      <a-icon type="home" />
-
-      <!-- <va-icon
-        name="info"
-        size="small"
-        class="ml-1"
-      /> -->
     </div>
     <div class="flex flex-row items-center">
       <span class="text-2xl flex-grow">290.00</span>

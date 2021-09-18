@@ -1,6 +1,4 @@
 <script setup>
-import { toRef, reactive } from 'vue'
-
 </script>
 
 <template>
@@ -20,12 +18,7 @@ import { toRef, reactive } from 'vue'
     <div class="w-full p-4 bg-gray-800">
       <div>
         <div class="mb-4 text-gray-500 inline-flex flex-row items-center">
-          <!-- <va-icon
-            name="apps"
-            color="gray"
-            size="small"
-            class="mr-2"
-          /> -->
+          <ake-icon name="<WindowsOutlined />" class="mr-2" />
           <span>软件服务</span>
         </div>
         <div class="flex flex-row">
@@ -36,12 +29,7 @@ import { toRef, reactive } from 'vue'
 
       <div class="mt-5">
         <div class="mb-4 text-gray-500 inline-flex flex-row items-center">
-          <!-- <va-icon
-            name="apps"
-            color="gray"
-            size="small"
-            class="mr-2"
-          /> -->
+          <ake-icon name="<YoutubeOutlined />" class="mr-2" />
           <span>视频业务</span>
         </div>
         <div class="flex flex-row">
@@ -52,12 +40,7 @@ import { toRef, reactive } from 'vue'
 
       <div class="mt-5">
         <div class="mb-4 text-gray-500 inline-flex flex-row items-center">
-          <!-- <va-icon
-            name="apps"
-            color="gray"
-            size="small"
-            class="mr-2"
-          /> -->
+          <ake-icon name="<GitlabOutlined />" class="mr-2" />
           <span>开发服务</span>
         </div>
         <div class="flex flex-row">
@@ -68,12 +51,7 @@ import { toRef, reactive } from 'vue'
 
       <div class="mt-5">
         <div class="mb-4 text-gray-500 inline-flex flex-row items-center">
-          <!-- <va-icon
-            name="apps"
-            color="gray"
-            size="small"
-            class="mr-2"
-          /> -->
+          <ake-icon name="<RadarChartOutlined />" class="mr-2" />
           <span>微信小程序</span>
         </div>
         <div class="flex flex-row">

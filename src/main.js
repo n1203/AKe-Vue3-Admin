@@ -1,6 +1,7 @@
 import animejs from 'animejs'
 import { createApp } from 'vue'
 import Antd from 'ant-design-vue';
+import ui from './components'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import { routes } from './routes.js'
@@ -17,6 +18,7 @@ const router = createRouter({
 
 app.config.productionTip = false;
 
+app.use(ui);
 app.use(Antd);
 app.use(router)
 app.use(animejs)

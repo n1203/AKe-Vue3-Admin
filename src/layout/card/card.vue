@@ -13,8 +13,7 @@ const {
 
 <template>
   <div class="mb-4 bg-white p-4 shadow-md w-full">
-    <div class="mb-4 font-bold">{{title || '未命名模块'}}
-  </div>
+    <div class="mb-4 font-bold">{{title || '未命名模块'}}</div>
     <div>
       <component :is="content" v-if="content" :props="props" :instance="instance" />
       <div v-if="!content">没有找到该Card(模块)</div>

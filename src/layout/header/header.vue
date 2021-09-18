@@ -11,7 +11,7 @@ let navs = [{
   route: '/index',
 }, {
   name: '产品',
-  icon: 'arrow_drop_down',
+  icon: '<CaretDownOutlined />',
   size: 'large',
   route: '/index',
   dorpViewKey: 'Production'
@@ -19,8 +19,6 @@ let navs = [{
 
 const navs2 = [{
   name: '最新活动',
-  icon: 'arrow_drop_down',
-  size: 'large',
   route: '/index',
 }]
 
@@ -52,13 +50,7 @@ const onBulr = e => {
         <div class="flex-row items-center inline-flex space-x-4">
           <div class="flex flex-row items-center relative h-16 overflow-hidden hover:overflow-visible" v-for="(nav, index) in navs" :key="index">
             <span class="hover:text-gray-300 cursor-pointer">{{ nav.name }}</span>
-            <!-- <va-icon
-              v-if="nav.icon"
-              :name="nav.icon"
-              color="gray"
-              :size="nav.size || 'large'"
-            /> -->
-            <WindowsOutlined />
+            <ake-icon v-if="nav.icon" :name="nav.icon" />
             <div v-if="nav.dorpViewKey" class="absolute mt-16 bg-black top-0 left-0 max-h-96 overflow-hidden overflow-y-scroll hover:text-gray-500 drop-shadow-md shadow-inner">
               <component :is="Dropmenus[nav.dorpViewKey]"></component>
             </div>
@@ -86,14 +78,9 @@ const onBulr = e => {
         />
       </div>
       <div class="relative overflow-hidden hover:overflow-visible">
-        <div class="cursor-pointer inline-flex flex-row items-center h-16 pl-4">
+        <div class="cursor-pointer inline-flex flex-row items-center h-16 pl-4 pr-4">
           <img :src="Avatar" alt="" srcset="" class="mr-2 h-10 w-10">
-          <!-- <va-icon
-            name="arrow_drop_down"
-            color="gray"
-            size="large"
-            class="mr-2"
-          /> -->
+          <ake-icon />
         </div>
         <div class="absolute top-0 mt-16 right-0">
           <UserDropMenu />
