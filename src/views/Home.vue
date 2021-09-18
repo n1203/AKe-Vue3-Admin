@@ -40,6 +40,9 @@ const store = createStore({
   }, {
     title: '最近访问',
     type: 'chart-line'
+  }, {
+    title: '数据',
+    type: 'ant-table'
   }],
   right: [{
     title: '用户信息', type: 'user',
