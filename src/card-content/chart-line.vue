@@ -8,5 +8,5 @@ const {
 </script>
 
 <template>
-  <ake-echart />
+  <div class="w-full h-full"><ake-echart /></div>
 </template>

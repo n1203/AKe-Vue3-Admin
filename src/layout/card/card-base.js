@@ -25,15 +25,15 @@ export default class CardBase {
    * })
    * ```
    */
-  constructor({title, type, props, childrens, events}) {
-    this.title = title
-    this.type = type
+  constructor({config, props, childrens, events}) {
+    this.title = config.title
+    this.type = config.type
     this.props = props
-    this.content = Cards[type]
+    this.content = Cards[this.type]
     // 如果有下一层数据
     if(childrens) {
       childrens = childrens.map(children => {
-        children.content = Cards[type]
+        children.content = Cards[this.type]
         return children
       })
     }

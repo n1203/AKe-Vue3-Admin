@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.0.1",
+    "@vitejs/plugin-vue-jsx": "^1.1.8",
     "animejs": "^3.2.1",
     "ant-design-vue": "^2.2.8",
     "echarts": "^5.2.0",
