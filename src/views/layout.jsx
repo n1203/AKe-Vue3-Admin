@@ -1,7 +1,7 @@
 
 import Card from '@/layout/card'
 
-const Layout = ({cards}) => {
+const Layout = ({cards, editStore}) => {
   return cards.map((card, index) => {
     return <div key={index} style={`
     width: ${card.layout.width || 'auto'};
@@ -11,7 +11,7 @@ const Layout = ({cards}) => {
     ['auto', undefined, ''].includes(card.layout.width) && 'flex-1',
     `flex-${card.layout.dictation || 'col'}`,
   ]}>
-      {card.childCards.length ? <Layout cards={card.childCards} /> : <Card options={card} />}
+      {card.childCards.length ? <Layout cards={card.childCards} /> : <Card options={card}  editStore={editStore} />}
     </div>
   })
 }
