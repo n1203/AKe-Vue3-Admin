@@ -17,6 +17,7 @@ const store = reactive({
 
 effect(() => {
   const { state } = schema[route.meta.key];
+  store.cards = []
   // https://jbaysolutions.github.io/vue-grid-layout/guide/10-drag-from-outside.html
   const makeTree = (card) =>
     state.cards
@@ -74,7 +75,7 @@ const { isEdit } = useState();
       <div class="inline-flex flex-row w-full space-x-2 first-letter:space-y-2">
         <div
           v-for="(card, index) in store.cards"
-          :key="index"
+          :key="card.id"
           :style="`
           width: ${card.layout.width || 'auto'};
           height: ${card.layout.height || 'fit-content'};

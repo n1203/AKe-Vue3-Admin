@@ -3,6 +3,13 @@ export default [{
   icon: 'InboxOutlined',
   meta: {
     title: '首页',
+    key: 'index'
+  },
+}, {
+  path: '/index',
+  icon: 'InboxOutlined',
+  meta: {
+    title: '仪表盘',
     key: 'home'
   },
 }, {
