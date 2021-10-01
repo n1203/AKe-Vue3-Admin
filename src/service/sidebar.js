@@ -79,6 +79,13 @@ export default [{
   path: '/icon',
 }, {
   meta: {
+    key: 'editor',
+    title: '编辑器'
+  },
+  icon: 'InboxOutlined',
+  path: '/editor',
+}, {
+  meta: {
     key: '404',
     title: '缺省页面'
   },
