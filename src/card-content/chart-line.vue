@@ -2,7 +2,7 @@
 import { toRef, reactive } from 'vue'
 const {props = {}, instance} = defineProps(['props', 'instance'])
 const {
-
+  height = 200
 } = props
 
 const options = {
@@ -30,5 +30,5 @@ const options = {
 </script>
 
 <template>
-  <div class="w-full h-full"><ake-echart :options="options" /></div>
+  <div class="w-full h-full"><ake-echart :options="options" :height="height" /></div>
 </template>

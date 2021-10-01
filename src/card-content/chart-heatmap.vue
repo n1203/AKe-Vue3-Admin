@@ -3,7 +3,7 @@ import { toRef, reactive } from 'vue'
 import * as echarts from 'echarts'
 const {props = {}, instance} = defineProps(['props', 'instance'])
 const {
-
+  height = 200
 } = props
 
 function getVirtulData(year) {
@@ -55,5 +55,5 @@ const options = {
 </script>
 
 <template>
-  <div class="w-full h-full"><ake-echart :options="options" /></div>
+  <div class="w-full h-full"><ake-echart :options="options" :height="height" /></div>
 </template>
