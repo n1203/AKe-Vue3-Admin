@@ -47,7 +47,7 @@ export default defineComponent({
 
 <template>
   <a-menu
-    class="h-full relative p-0 m-0"
+    class="relative p-0 m-0 bottom-0 left-0 h-full"
     style="max-width: 256px; min-width: 80px"
     mode="inline"
     theme="dark"
@@ -62,7 +62,7 @@ export default defineComponent({
     <div v-for="(nav, index) in navs" :key="index">
       <a-sub-menu v-if="nav.children" :key="`sub${String(index)}`" >
         <template #icon>
-          <ake-icon v-if="nav.icon" :name="nav.icon" />
+          <ake-icon v-if="nav.icon" :name="nav.icon" className="text-2xl" />
         </template>
         <template #title>{{nav.meta.title}}</template>
         <a-menu-item
@@ -80,8 +80,8 @@ export default defineComponent({
       </a-menu-item>
     </div>
     <div class="absolute bottom-0 left-0 right-0 text-center bg-black pt-3 pb-5 text-base hover:bg-gray-900 cursor-pointer" @click="toggleCollapsed" >
-      <MenuUnfoldOutlined v-if="collapsed" />
-      <MenuFoldOutlined v-else />
+      <ake-icon name="MenuUnfoldOutlined" v-if="collapsed" />
+      <ake-icon name="MenuFoldOutlined" v-else />
     </div>
   </a-menu>
 </template>

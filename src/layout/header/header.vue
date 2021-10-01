@@ -43,7 +43,7 @@ const onBulr = e => {
 </script>
 
 <template>
-  <div class="h-16 bg-gray-900 flex flex-row items-center text-gray-500 sticky top-0 shadow-lg z-50">
+  <div class="h-16 bg-gray-900 flex flex-row items-center text-gray-500 fixed right-0 left-0 top-0 shadow-lg z-50">
     <div class="flex-row items-center inline-flex flex-grow h-16 m-4">
       <img :src="LogoFull" class="mr-4" alt="" srcset="">
       <div class="flex-grow inline-flex h-16 items-center">

@@ -5,11 +5,9 @@ import SideBar from '@/layout/side-bar'
 </script>
 
 <template>
-<div class="h-screen w-screen flex flex-col">
-  <Header />
-  <main class="flex flex-row w-full flex-grow shadow-inner">
-    <SideBar />
-    <div class=" flex-grow"><router-view /></div>
-  </main>
-</div>
+<Header />
+<main class="h-screen w-screen flex flex-row flex-grow shadow-inner pt-16">
+  <SideBar />
+  <div class="flex-grow overflow-y-scroll h-full"><router-view /></div>
+</main>
 </template>

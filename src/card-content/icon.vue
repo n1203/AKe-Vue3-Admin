@@ -3,14 +3,6 @@ import service from "../service";
 import clipboard from "clipboard";
 import { message } from 'ant-design-vue';
 
-console.log(
-  "%cMyProject%cline:2%cservice",
-  "color:#fff;background:#ee6f57;padding:3px;border-radius:2px",
-  "color:#fff;background:#1f3c88;padding:3px;border-radius:2px",
-  "color:#fff;background:rgb(3, 101, 100);padding:3px;border-radius:2px",
-  service
-);
-
 const copy = (e, name) => {
   new clipboard(e.target, {
     text: () => name,
