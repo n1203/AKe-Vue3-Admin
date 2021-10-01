@@ -59,10 +59,10 @@ export default defineComponent({
     ay-900 mt-4 px-2 mb-3 text-base text-white line-clamp-1 overflow-ellipsis overflow-y-hidden">
       {{projectName}}
     </div>
-    <div v-for="(nav, index) in navs" :key="index">
+    <template v-for="(nav, index) in navs" :key="index">
       <a-sub-menu v-if="nav.children" :key="`sub${String(index)}`" >
         <template #icon>
-          <ake-icon v-if="nav.icon" :name="nav.icon" className="text-2xl" />
+          <ake-icon v-if="nav.icon" :name="nav.icon" className="mr-2" />
         </template>
         <template #title>{{nav.meta.title}}</template>
         <a-menu-item
@@ -74,11 +74,11 @@ export default defineComponent({
       </a-sub-menu>
       <a-menu-item :key="`menu${String(index)}`"  v-else @click="goto(nav.path)">
         <template #icon>
-          <ake-icon v-if="nav.icon" :name="nav.icon" />
+          <ake-icon v-if="nav.icon" :name="nav.icon" className="mr-2" />
         </template>
         <span>{{nav.meta.title}}</span>
       </a-menu-item>
-    </div>
+    </template>
     <div class="absolute bottom-0 left-0 right-0 text-center bg-black pt-3 pb-5 text-base hover:bg-gray-900 cursor-pointer" @click="toggleCollapsed" >
       <ake-icon name="MenuUnfoldOutlined" v-if="collapsed" />
       <ake-icon name="MenuFoldOutlined" v-else />

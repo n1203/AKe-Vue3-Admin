@@ -24,10 +24,6 @@ export default {
         id: '000000221515',
         layout: {parent: '000000221', width: '100%', dictation: 'row'},
         config: {title: '最近24小时流量', type: 'chart-line-bar'}
-      },{
-        id: '000000221515',
-        layout: {parent: '000000221', width: '100%', dictation: 'row'},
-        config: {title: '最近24小时流量', type: 'chart-world'}
       },
       {
         id: '000000222',
