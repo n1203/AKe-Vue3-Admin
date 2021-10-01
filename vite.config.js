@@ -8,7 +8,7 @@ export default defineConfig({
     vue(),
     vueJsx({
       // options are passed on to @vue/babel-plugin-jsx
-    })
+    }),
   ],
   resolve: {
     alias: {
