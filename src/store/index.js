@@ -1,10 +1,7 @@
-import { createStore } from 'vuex'
-import layout from './layout'
+import { reactive } from "vue"
 
-const store = createStore({
-  modules: {
-    layout
-  },
+const store = reactive({
+  test: 1
 })
 
 window.store = store

@@ -5,7 +5,6 @@ const {
   style	 = {},
   className = '',
   spin = false,
-  rotate = false,
   twoToneColor = '',
   color = ''
 } = defineProps({
@@ -15,7 +14,6 @@ const {
   },
   style: Object,
   spin: Boolean,
-  rotate: Boolean,
   twoToneColor: String,
   color: String,
 })
@@ -28,5 +26,5 @@ const styles = `
 </script>
 
 <template>
-  <Icon :style="styles" :spin="spin" :rotate="rotate" :twoToneColor="twoToneColor" />
+  <Icon :style="styles" :spin="spin" :twoToneColor="twoToneColor" />
 </template>

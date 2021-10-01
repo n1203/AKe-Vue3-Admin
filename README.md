@@ -1,8 +1,4 @@
-# `AkeAdmin (Vite + Vue 3 + Tailwind CSS + echarts) ⚡`
-
-# Todo
-- [ ] 先横排，再纵排 - 纵排内再横排，
-
+# `AkeAdmin (Vite + Vue 3 + Tailwind CSS + echarts + Antd) ⚡`
 ![Vite, Vue, Tailwind CSS](https://user-images.githubusercontent.com/11320080/111277027-a9384c00-8640-11eb-8323-21889bd7c609.png)
 
 This starter template also includes:
