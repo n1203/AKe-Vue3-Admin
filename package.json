@@ -12,7 +12,7 @@
     "animejs": "^3.2.1",
     "ant-design-vue": "^2.2.8",
     "clipboard": "^2.0.8",
-    "echarts": "^5.2.0",
+    "echarts": "^5.2.1",
     "uuid": "^8.3.2",
     "vue": "^3.2.11",
     "vue-router": "^4.0.11",
