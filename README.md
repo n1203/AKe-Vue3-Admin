@@ -50,3 +50,50 @@ yarn serve
 - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - recommended (instead of Vetur) VSCode extension built specifically for Vue 3
 - [Pinia](https://pinia.esm.dev/introduction.html) - state-management alternative to Vuex 4 with a similar to upcoming Vuex 5 API
 - [VueUse](https://vueuse.org/functions.html) - collection of essential Vue Composition Utilities
+
+#### TODO
+- [ ] 仪表盘
+- [ ] 文档单页面（iframe）
+- [ ] 引导页面
+- [ ] 权限控制页面
+- [ ] 图标集合页面
+- [ ] 组件
+  - [ ] 富文本编辑器
+  - [ ] markdown编辑器
+  - [ ] JSON编辑器
+  - [ ] 头像上传
+  - [ ] drop draw
+  - [ ] 列表拖拽
+  - [ ] to do list 看板
+- [ ] 图表
+  - [ ] 折线
+  - [ ] 柱状图
+  - [ ] 折柱图
+  - [ ] 桑基图
+  - [ ] 词云
+- [ ] 表格
+  - [ ] 动态表格
+  - [ ] 可拖拽表格
+  - [ ] 可拖拽表格
+- [ ] 综合实例
+  - [ ] 创建文章
+  - [ ] 文章列表
+- [ ] layout布局
+  - [ ] 基础layout
+  - [ ] tab
+  - [ ] tab+layout
+- [ ] 缺省页面
+  - [ ] 401 无权限
+  - [ ] 404 不存在
+- [ ] Excel
+  - [ ] 导出Excel
+  - [ ] 上传Excel
+- [ ] 导出Zip
+- [ ] 导出pdf
+- [ ] 全局主题切换
+- [ ] 复制
+- [ ] 国际化
+
+
+
+
