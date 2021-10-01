@@ -27,4 +27,18 @@ export default [{
     icon: 'InboxOutlined',
     path: '/list/table',
   }]
+}, {
+  meta: {
+    key: 'icon',
+    title: 'Icon'
+  },
+  icon: 'InboxOutlined',
+  path: '/icon',
+}, {
+  meta: {
+    key: '404',
+    title: '缺省页面'
+  },
+  icon: 'InboxOutlined',
+  path: '/404',
 }]

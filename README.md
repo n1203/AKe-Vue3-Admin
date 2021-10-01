@@ -52,7 +52,8 @@ yarn serve
 - [VueUse](https://vueuse.org/functions.html) - collection of essential Vue Composition Utilities
 
 #### TODO
-- [ ] 仪表盘
+- [x] 首页
+- [x] 仪表盘
 - [ ] 文档单页面（iframe）
 - [ ] 引导页面
 - [ ] 权限控制页面
@@ -65,26 +66,26 @@ yarn serve
   - [ ] drop draw
   - [ ] 列表拖拽
   - [ ] to do list 看板
-- [ ] 图表
-  - [ ] 折线
-  - [ ] 柱状图
+- [x] 图表
+  - [x] 折线
+  - [x] 柱状图
   - [ ] 折柱图
   - [ ] 桑基图
   - [ ] 词云
+  - [x] 热力图
 - [ ] 表格
-  - [ ] 动态表格
+  - [x] 动态表格
   - [ ] 可拖拽表格
   - [ ] 可拖拽表格
 - [ ] 综合实例
   - [ ] 创建文章
   - [ ] 文章列表
 - [ ] layout布局
-  - [ ] 基础layout
+  - [x] 基础layout
   - [ ] tab
   - [ ] tab+layout
-- [ ] 缺省页面
-  - [ ] 401 无权限
-  - [ ] 404 不存在
+- [x] 缺省页面
+  - [x] 404 不存在
 - [ ] Excel
   - [ ] 导出Excel
   - [ ] 上传Excel

@@ -23,7 +23,7 @@ const options = {
           data: [150, 230, 224, 218, 135, 147, 260, 266, 263, 255, 256, 267],
           smooth: true,
           showSymbol: false,
-          type: 'line'
+          type: 'bar'
       }]
   }
 

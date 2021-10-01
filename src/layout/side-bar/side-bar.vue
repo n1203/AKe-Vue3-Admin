@@ -9,7 +9,7 @@ export default defineComponent({
   setup() {
     const state = reactive({
       collapsed: false,
-      selectedKeys: ['1'],
+      selectedKeys: ['0'],
       openKeys: ['sub1'],
       preOpenKeys: ['sub1'],
       navs: service.sidebar,

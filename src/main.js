@@ -5,7 +5,6 @@ import ui from './components'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import { routes } from './routes.js'
-import store from '@/store'
 import './index.css'
 import 'ant-design-vue/dist/antd.css';
 

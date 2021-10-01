@@ -8,9 +8,9 @@ export default {
        * 如果parent相同，则为一个节点下横排节点
        */
       {
-        id: '002221',
-        layout: {parent: 'root', width: '100%', dictation: 'row'},
-        config: {title: '表格', type: 'ant-table'},
+        id: 'icon',
+        layout: {parent: 'root', width: '100%', dictation: 'col'},
+        config: {title: '图标列表', type: 'icon'}
       }],
   }
 }

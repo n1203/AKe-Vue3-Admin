@@ -20,7 +20,7 @@ const {
 const Icon = Icons[name.replace('<', '').replace('/>', '').replace(' ', '')]
 
 const styles = `
-  color: ${color}
+  color: ${color};
 ` + style
 
 </script>

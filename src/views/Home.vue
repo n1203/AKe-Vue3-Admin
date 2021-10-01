@@ -13,9 +13,15 @@ const route = useRoute();
 // state: schema[route.meta.key].state,
 const store = reactive({
   cards: [],
+  is404: false,
 });
 
 effect(() => {
+  store.is404 = !schema[route.meta.key]
+  if (!schema[route.meta.key]) {
+    store.cards = []
+    return
+  }
   const { state } = schema[route.meta.key];
   store.cards = []
   // https://jbaysolutions.github.io/vue-grid-layout/guide/10-drag-from-outside.html
@@ -94,6 +100,15 @@ const { isEdit } = useState();
           />
         </div>
       </div>
+    </div>
+    <div v-if="store.is404" class="w-full h-full text-center">
+      <a-result status="404" title="404" sub-title="Sorry, the page you visited does not exist.">
+        <template #extra>
+          <a-button type="primary">
+            Back Home
+          </a-button>
+        </template>
+      </a-result>
     </div>
   </div>
 </template>
