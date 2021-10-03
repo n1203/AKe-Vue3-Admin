@@ -1,5 +1,5 @@
 <script setup>
-import { ref, reactive, useAttrs } from 'vue'
+import { reactive } from 'vue'
 import LogoFull from "@/assist/logo_full.svg";
 import Avatar from "@/assist/avatar.png";
 import Dropmenus from "@/layout/drop-view/index.js";
@@ -23,9 +23,6 @@ const navs2 = [{
 }]
 
 const searchValue = reactive('')
-
-const searchRef = useAttrs()
-
 const onClick = e => {
   anime({
     targets: e.target,
@@ -72,7 +69,6 @@ const onBulr = e => {
     <div class="items-center justify-end inline-flex">
       <div class="h-8 px-2 bg-gray-800 search">
         <input
-          :ref="searchRef"
           id="searchRef"
           class="w-full bg-gray-800 outline-none border-none h-8"
           v-model="searchValue"

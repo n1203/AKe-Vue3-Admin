@@ -1,5 +1,5 @@
 <script setup>
-import { toRef, reactive, effect, ref } from 'vue'
+import { reactive, effect } from 'vue'
 import { v4 as uuidv4 } from "uuid";
 import E from "wangeditor";
 const {props = {}} = defineProps(['props'])
@@ -19,8 +19,6 @@ const {
 } = props
 
 const id = `editor-${uuidv4()}`
-const element = ref()
-
 effect(() => {
   setTimeout(() => {
     const editor = new E(`#${id}`);
@@ -40,7 +38,7 @@ const style = `
 </script>
 
 <template>
-  <div :id="id" :ref="element" class="w-full h-full" :style="style">
+  <div :id="id" class="w-full h-full" :style="style">
      <div>
        编辑器能力
      </div>
