@@ -9,7 +9,7 @@ export default defineComponent({
   setup() {
     const state = reactive({
       collapsed: false,
-      selectedKeys: ['0'],
+      selectedKeys: ['menu0'],
       openKeys: ['sub1'],
       preOpenKeys: ['sub1'],
       navs: service.sidebar,
@@ -29,9 +29,7 @@ export default defineComponent({
 
     // 路由跳转
     const router = useRouter()
-    const goto = path => {
-      router.push(path)
-    }
+    const goto = router.push
 
     return {
       ...toRefs(state),
