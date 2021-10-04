@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import Header from '@/layout/header'
+import Help from '@/layout/help'
 import SideBar from '@/layout/side-bar'
 </script>
 
@@ -10,4 +11,5 @@ import SideBar from '@/layout/side-bar'
   <SideBar />
   <div class="flex-grow overflow-y-scroll h-full"><router-view /></div>
 </main>
+<Help />
 </template>
