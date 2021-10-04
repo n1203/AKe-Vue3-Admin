@@ -1,4 +1,4 @@
-import avatar from "@/assist/avatar.png"
+const avatar = new URL('../assist/avatar.png', import.meta.url).href
 
 export default {
   state: {

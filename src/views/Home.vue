@@ -2,11 +2,11 @@
 import { watch, reactive, effect } from "vue";
 import Card from "@/layout/card";
 import { useRoute } from "vue-router";
-import bg from "@/assist/bg.jpg";
 import schema from "../page-schemas";
 import Layout from "./layout";
 import Editor from "./editor.vue";
 import { useState, toggleEdit } from "./home";
+const bg = new URL('../assist/bg.jpg', import.meta.url).href
 
 const route = useRoute();
 
