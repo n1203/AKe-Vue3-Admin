@@ -16,6 +16,7 @@
     "uuid": "^8.3.2",
     "vue": "^3.2.11",
     "vue-router": "^4.0.11",
+    "vue3-ace-editor": "^2.2.1",
     "vue3-drag-resize": "^2.0.5",
     "vuex": "^4.0.2",
     "wangeditor": "^4.7.8"
