@@ -1,5 +1,4 @@
 <script setup>
-import { computed } from 'vue'
 import Header from '@/layout/header'
 import Help from '@/layout/help'
 import SideBar from '@/layout/side-bar'

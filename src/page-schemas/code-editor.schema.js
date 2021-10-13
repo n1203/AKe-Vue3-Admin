@@ -1,5 +1,3 @@
-import avatar from "@/assist/avatar.png"
-
 export default {
   state: {
     cards: [
@@ -8,7 +6,7 @@ export default {
        * 如果parent相同，则为一个节点下横排节点
        */
       {
-        id: '0000becodeeeear1',
+        id: '0000becodeee11ear1',
         layout: {parent: 'root', width: '100%', dictation: 'col'},
         config: {title: '代码编辑器', type: 'code-editor'},
         props: {

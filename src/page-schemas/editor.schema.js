@@ -8,7 +8,7 @@ export default {
        * 如果parent相同，则为一个节点下横排节点
        */
       {
-        id: '0000beeeear1',
+        id: '0000beceeear1',
         layout: {parent: 'root', width: '100%', dictation: 'col'},
         config: {title: '编辑器', type: 'editor'},
         props: {
