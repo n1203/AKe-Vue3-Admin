@@ -36,6 +36,6 @@
     "@vue/compiler-sfc": "^3.2.20",
     "autoprefixer": "^10.3.4",
     "tailwindcss": "^2.2.15",
-    "vite": "^2.6.5"
+    "vite": "^2.9.1"
   }
 }
