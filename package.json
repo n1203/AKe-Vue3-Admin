@@ -22,7 +22,7 @@
     "vue3-ace-editor": "^2.2.1",
     "vue3-drag-resize": "^2.0.5",
     "vuex": "^4.0.2",
-    "wangeditor": "^4.7.8"
+    "wangeditor": "^4.7.13"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.4.1",
